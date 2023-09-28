@@ -1,0 +1,183 @@
+@import url(https://fonts.googleapis.com/css?family=Raleway:300);
+button {
+  transform: translateX(-50%) translateY(-50%); }
+
+
+
+button {
+  background: #333;
+  color: #ccc;
+  width: 200px;
+  height: 60px;
+  border: 0;
+  font-size: 18px;
+  border-radius: 4px;
+  font-family: 'Raleway', sans-serif;
+  transition: .6s;
+  overflow: hidden; }
+  button:focus {
+    outline: 0; }
+  button:before {
+    content: '';
+    display: block;
+    position: absolute;
+    background: rgba(255, 255, 255, 0.5);
+    width: 60px;
+    height: 100%;
+    left: 0;
+    top: 0;
+    opacity: .5;
+    filter: blur(30px);
+    transform: translateX(-100px) skewX(-15deg); }
+  button:after {
+    content: '';
+    display: block;
+    position: absolute;
+    background: rgba(255, 255, 255, 0.2);
+    width: 30px;
+    height: 100%;
+    left: 30px;
+    top: 0;
+    opacity: 0;
+    filter: blur(5px);
+    transform: translateX(-100px) skewX(-15deg); }
+  button:hover {
+    background: #751d53;
+}
+.workbutton:hover {
+  background: #e34754b0;
+}
+.aboutbutton:hover {
+  background: #782479b2;
+}
+.contactbutton:hover {
+  background: #3368aeaf;
+}
+    button:hover:before {
+      transform: translateX(300px) skewX(-15deg);
+      opacity: 0.6;
+      transition: .7s; }
+    button:hover:after {
+      transform: translateX(300px) skewX(-15deg);
+      opacity: 1;
+      transition: .7s; }
+
+      .hover-7:before {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 2px;
+        background-color: rgb(0, 0, 0);
+        transform: scaleX(0);
+        transform-origin: top left;
+        transition: transform 0.3s;
+      }
+      .hover-7:after {
+        content: '';
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        width: 100%;
+        height: 2px;
+        background-color: #751d53;
+        transform: scaleX(0);
+        transform-origin: bottom right;
+        transition: transform 0.3s;
+      }
+      .hover-7:hover:before {
+        transform: scaleX(1);
+      }
+      .hover-7:hover:after {
+        transform: scaleX(1);
+      }
+
+
+
+
+
+      .cursor {
+        position: absolute;
+        height: var(--circle);
+        width: var(--circle);
+        transform:scale(1);
+        border-radius: 50%;
+        transition: all 0.35s, top 0s, left 0s;
+        mix-blend-mode: difference;
+        transform: translate(-50%, -50%);
+        pointer-events: none;
+        z-index: 9999;
+      }
+      
+      .cursor:first-child {
+        background-color: #fff;
+        --circle:8px
+      }
+      .cursor.second-cursor {
+        background-color: none;
+        border:3px solid #fff5;
+        --circle:44px;
+      }
+      
+      .cursor:first-child.big{
+        --circle:70px;
+      }
+      .second-cursor.big { 
+        --circle:0px;
+        border-width:0px;
+      }
+
+
+
+.to-top {
+  -moz-transition:all .3s ease 0s;
+      -webkit-transition:all .3s ease 0s;
+      -o-transition:all .3s ease 0s;
+}
+.to-top:hover .textfield{
+  width: 45px ;
+  visibility: visible;
+  bottom: 32px; right: 5em;
+}
+     .hovercircle {
+       background-color: rgba(255, 255, 255, 0.849);
+       border: 4px solid #751d53;
+       border-radius: 50%;
+       width: 3.8vw;
+       height: 3.8vw;
+       max-width: 45px; max-height: 45px;
+       min-height: 36px; min-width: 36px;
+       position: fixed;
+	    bottom: 15px; right: 15px;
+	    
+       z-index: 1000;
+     }
+     .textfield {
+      background-color: #000000;
+      color: white;
+      font-size: 0.5em;
+      word-wrap: none;
+      width:40px;
+      overflow: hidden;
+      visibility: hidden;
+      transition: 1s;
+	padding: 0 10px;
+  opacity: 1;
+      position: fixed;
+     bottom: 32px; right: 12px;
+     padding:5px;
+      z-index: 999;
+     }
+     .to-top-arrow {
+      width:4.15vw;
+      max-width: 49px; max-height: 49px;
+      min-height: 40px; min-width: 40px;
+      z-index: 1000;
+      transition:all .3s ease 0s;
+      transform: rotate(270deg);
+      position: fixed;
+     bottom: 17px; right: 17px; 
+     }
+
+     

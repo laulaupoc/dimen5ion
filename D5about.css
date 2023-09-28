@@ -1,0 +1,434 @@
+#aboutpagebody {
+    margin-left: 6vw; 
+    width: 0vw; height: 0px ;
+    color: white;
+    overflow: hidden;
+    transition: 0.5s;
+}
+
+#aboutpagebody div {
+    display: flex; flex-direction: column; justify-content: center !important;
+}
+#aboutpage {
+    max-width: 1367px;
+}
+#bottomsecc {
+    margin: 0px; padding-bottom: 100px;
+    text-align: start;
+    }
+
+    #aboutpage #mobilelogo {
+        height: 40vh;
+    }
+    #backgroundgradient3 {
+        background-image: url(files/bacground.png);
+        background-size: cover;
+        position: fixed;
+        top: 0;
+        z-index: -1;
+    overflow: hidden;
+    height: 100vh;
+       width: 100vw;
+    }
+
+
+    #aboutheader {
+        text-transform: uppercase; text-align: center; font-size: 0.8em;
+        margin-bottom: 20px;
+        margin-top: 50px;
+    }
+    #abouttopinfo {
+        font-size: 0.9em;
+        padding-bottom: 150px;
+    }
+    #abouttopinfotitle{
+        font-size: 2em; text-align: left;
+        padding-bottom: 1em; margin-left: 2em;
+        padding-top: 1.5em;
+    }
+    #inforight {
+        display: inline-block;
+        justify-content: right;
+        align-items: flex-end;
+    }
+
+.videoabouttitle {
+    width: 100vw !important;
+    max-width: 1367px;
+        text-align: left;
+        font-size: 2em;
+        padding-bottom: 1em;
+        margin-left: 10% !important;
+        padding-top: 1.5em;
+
+}
+#aboutcontentpage video {
+    margin-left: 0px !important;
+    text-align: center;
+    align-self: center;
+}
+
+
+    #persontitle {
+        font-size: 1.5em;
+        padding-bottom: 0.2em;
+    }
+    #persondesc {
+        font-size: 1em;
+        padding-bottom: 1em;
+    }
+
+    #personinfo, #personinfoo {
+        display: flex; flex-direction: column;
+        justify-content: flex-end;
+        width: 50%; line-height: 1.3em;
+    }
+    #aboutinfo{
+        margin-left: 45%; margin-right: 8%;
+        font-size: 1.3em; line-height: 1.5em;
+    }
+    #teamheader {
+        font-size: 1.6em; 
+        display: flex; justify-content: center;
+        max-width: 500px; width: 50%;
+    }
+
+    #team {
+        max-width: 1000px;
+        
+    }
+    #teamhead {
+        max-width: 500px; width: 35vw;
+        padding-bottom: 2.5em;
+    }
+    #team * {
+        margin: 0px;
+    }
+    #team5d, #team5d2 {
+        display: flex;
+        justify-content: center;
+        padding-bottom: 120px;
+    }
+    #team5d i, #team5d2 i {
+        background-size: cover;
+        max-width: 500px; width: 35vw;
+        max-height: 500px; height: 35vw;
+        margin: 0px;
+    }
+    #team5d i {
+        margin-right: 10%;
+    }
+    #team5d2 i {
+        margin-left: 10%;
+    }
+    #team5d p, #team5d2 p {
+        
+    }
+    #Dominika {
+    background-image: url(files/kolo2.jpg) ;
+    }
+    #Laurita {
+        background-image: url(files/kolor1.jpg);
+    }
+    #Aleksandra {
+        background-image: url(files/kolor4.jpg);
+    }
+    #Emma {
+        background-image: url(files/kolor.jpg);
+    }
+    #Marc {
+        background-image: url(files/kolor3.jpg);
+    }
+
+    #aboutdiscoverpage {
+        max-width: 1367px; 
+        padding-bottom: 0px;
+    }
+    #aboutdiscoverpage {
+        width: 70vw;
+        margin: 5em 15vw;
+    }#aboutdiscoverpage * {
+      font-size: 1em;
+      line-height: 2em;
+      text-align: left;
+    }
+    #abouttitle {
+        font-size: 2em; text-transform: uppercase;
+        margin-left: 0%;    
+        opacity: 100%;
+        padding-top: 100px;
+        transition: .8s;
+    }
+    #abouttitle {
+        font-size: 1.5em;
+        margin: 0px!important;
+        margin-bottom: 2vh !important ;
+        padding-top: 0px !important;
+    }
+    #abouttopics {
+        padding-right: 0px !important;
+    }
+    #abouttopinfo {
+        margin: 1.3em 8vw ;
+        padding-bottom: 40px;
+    }
+    
+    
+    #aboutcategories{
+        display: flex;  justify-content: flex-end;
+        font-size: 1.2em; line-height: 3.5rem;
+        margin: 0px;
+        max-width: 1367px;
+
+    }
+    #aboutnumbers {
+        margin-right: 30px;
+        margin-left: 0px;
+        transition: .8s;
+        margin-top: 0%;    
+        opacity: 100%;
+    }
+    #abouttopics {
+        padding-right: 50px; margin: 0px;
+        transition: .8s;
+        opacity: 100%;
+    }
+    
+
+#aboutcontentpage {
+    max-width: 1367px;
+    align-self: center;
+    overflow: hidden;
+}
+
+
+    @media only screen and (max-width: 700px) {
+        
+        #aboutcontentpage {
+            padding-top: 4em;
+        }
+
+        #aboutpage #pageinfoo {
+            margin-top: 10vh !important;
+            height: 30vh !important;
+            width: 78vw !important;
+            padding: 0 11vw !important;
+        }
+        
+        #pageinfoo {}
+        #aboutpage #pagetitle, #contactpage #pagetitle {
+           font-size: 2.1em;
+           font-weight: 400;
+        }
+        #aboutpage #line, #aboutheader{
+         display: none;  
+         }
+
+         #abouttopinfotitle {
+             font-size: 1.8em;
+         }
+
+         #aboutcontentpage video {
+            max-height: 70vw !important;
+            width: 90vw !important;
+        }
+        .videoabouttitle {
+            width: 95vw !important;
+            max-width: 1367px;
+                font-size: 1.5em !important;
+                text-align: left;
+                padding-bottom: 1em;
+                margin-left: 10% !important;
+                padding-top: 1.5em;
+        }
+        #aboutcontentpage video {
+            margin-left: 0px !important;
+            text-align: center;
+            align-self: center;
+        }
+
+        
+
+
+         #aboutinfo {
+             width: 85vw;
+             margin:2em 0;
+         }
+         .aboutinfosp br {
+             display: block;
+         }
+
+         #team5d i, #team5d2 i {
+            width: 70vw !important;
+            height: 70vw !important;
+        }
+        #team5d {
+            text-align: center;
+        }
+        #personinfo {
+            width: 90vw;
+            
+            text-align: center;
+        }
+        #persontitle {
+            margin-top: 1.5em !important ;
+        }
+        #persondesc {
+            margin-bottom: 0.5em;
+        }
+
+        #inforight br {
+           
+        }
+
+    
+
+        #aboutpagebody, #aboutcontentpage {
+            width: 100vw !important; margin: 0vw !important;
+            text-align: center; 
+        }
+        
+        #bottomsecc {
+            text-align: center;
+            padding-bottom: 1em;
+            }#pagetitle {
+            font-size: 2.5em;
+            left: 0%; padding-bottom: 1.5em; }
+
+            #aboutdiscoverpage {
+                padding: 5em 0em;
+                width: 100vw;
+                margin: 2vh 0vw;
+                word-break: keep-all !important;
+            }
+            #aboutitle {
+                margin-bottom: 1em !important;
+            }
+            #aboutcategories {
+                justify-content: center;
+            }
+            #aboutdiscoverpage br {
+                display: block;
+            }
+            #aboutpage #mobilelogo {
+                height:20vh;
+            }
+            #backgroundgradient3 {
+        
+                background-size: cover;
+                background-position: 65% 65%;
+                position: fixed;
+                top: 0;
+                z-index: -1;
+            overflow: hidden;
+            height: 100vh;
+               width: 100vw;
+            }
+            
+
+         #abouttopinfotitle {
+             text-align: center;
+             margin: 0px !important;
+             padding-top: 0px;
+             width: 85vw;
+             font-size: 1.7em ;
+         }
+         #abouttopinfo {
+            padding-bottom: 1em;
+         }
+         #aboutinfo {
+        margin: 0px;
+        padding-bottom: 2em;
+    }
+
+        #team #team5d {
+            flex-direction: column;
+            align-items: center;
+            padding-bottom: 5.5em;
+        }
+        #team #team5d2 {
+            align-items: center;
+            padding-bottom: 5.5em;
+        }
+        
+        
+        #teamhead, #teamheader {
+        width: 100vw !important; max-width: 100vw;text-align: center; margin: 0px !important;
+    }#team section p{
+        width: 65vw;
+        text-align: center;
+        margin: 0 12vw;
+    }
+    #team5d i, #team5d2 i {
+        background-size: cover;
+        background-position: top;
+        max-width: 700px; width: 70vw;
+        margin-left: 5vw ; margin-right: 5vw ;
+        max-height: 700px; height: 50vw;
+        margin: 0px;
+    }
+    #persontitle {
+        margin-top: 0.5em;
+    }
+    #personinfo, #personinfoo {
+        width: 90vw;
+    }
+
+#team5d2 {
+    display: flex;
+    flex-direction: column-reverse;
+}
+#team #team5d2 i {
+    justify-content: flex-start !important;
+    flex-direction: column-reverse;
+}
+#team5d2 p {
+    justify-content: flex-end !important;
+}
+
+#abouttitle {
+    text-align: center !important;
+}
+
+
+        
+        video  {
+            height: 80vw; max-height: 500px;
+            width: 80vw; max-width: 500px;
+        }
+  
+        
+    
+    footer {
+        text-align: left;
+    }#footerlogo {
+        width: 0vw;
+        overflow: hidden;
+    }
+
+    #amfootsec1, #amfootsec2, #amfootsec3 {
+        overflow: hidden;
+        height: 0px;
+        transition: 0.6s;
+    }
+    #amfootsec1 p, #amfootsec2 p, #amfootsec3 p {
+        font-size: 0.8em;
+        margin-left: 3em;
+    }
+    
+    #amfootsec2 p {
+        line-height: 2em;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.151);
+    }
+    
+    #amfootsec3 img {
+        width: 2em !important;
+    position: relative;
+    top: 7px;
+    margin-left: -2em;
+    }
+    #amfootadd p {
+        line-height: 1.5em !important;
+    }
+    
+}

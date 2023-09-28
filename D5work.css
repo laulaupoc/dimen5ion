@@ -1,0 +1,469 @@
+
+
+#workpagebody {
+    margin-left: 6vw; 
+    width: 0vw;
+    height: 0px;
+    color: white;
+    overflow: hidden;
+    transition: 0.5s;
+}
+#workpagebody div {
+    display: flex; flex-direction: column;justify-content: center;
+}
+#workpage {
+    max-width: 1367px;
+}
+
+#workpage #mobilelogo {
+    height: 40vh;
+}
+
+
+#backgroundgradient2 {
+    background-image: url(files/work.png);
+    background-size: cover;
+    position: fixed;
+    top: 0;
+    z-index: -1;
+overflow: hidden;
+height: 100vh;
+   width: 100vw;
+}
+
+#logoo {
+    padding: 50px 0px 100px 0px;
+    width: 60vw; max-width: 1000px; min-width: 300px;
+}
+#pagetitle {
+    font-size: 3em;
+    position: relative; left: 19%;
+}
+#pageinfoo {
+   padding-bottom: 50px;
+   margin: 0px 120px 0px 100px;
+   display: flex; justify-content: flex-end;
+   height: 20vh;
+}
+#bottomsec {
+    margin: 0px; padding-bottom: 0px;
+    text-align: start;
+    height: 20vh;
+    }
+
+
+    #workdiscoverpage {
+        padding: 100px 0px 100px 0px;
+    }
+    h3 {
+        font-size: 2.5em; line-height: fit-content;
+        border-bottom: 2px solid white;
+        margin: 0 auto; margin-top: 10px;
+    }
+
+    #fyear {
+     width: 68vw; max-width: 950px;
+     transition: 2s;
+    }
+    
+    #syear {
+        width: 66vw; max-width: 920px;
+        position: relative; left: 15px;
+        transition: 2.2s;
+    }
+    #tyear{
+       width: 65vw; max-width: 900px;
+        position: relative; left: 23px;
+        transition: 2.4s;
+    }
+
+    
+    
+
+
+
+    #workfirstimgrow {
+        display: flex; justify-content: center;
+        padding-top: 00px; padding-bottom: 50px;
+    }
+    #workfirstimgrow section p {
+        font-size: 1em; line-height: 1.3rem;
+        width: 28vw ; max-width: 350px;
+    }
+    #worksecondimgrow, #workthirdimgrow, #workfourthimgrow {
+        display: flex;
+    }
+    #imagecontent section, #imagecontent div {
+        padding-bottom: 1.5em;
+        line-height: 1.3rem;
+        
+    }
+    #imagecontent {
+        width: 92vw;
+        max-width: 1367px;
+    }
+
+#workimgone, #workimgtwo, #workimgthree {
+    background-size: cover;
+    height: 36vw;  max-height: 450px;
+    width: 28vw ; max-width: 350px;
+    margin-bottom: 5px; margin-right: 10px;
+}
+    #workimgone {
+        background-image: url(files/orangew.png);
+    }
+    #workimgtwo {
+        background-image: url(files/blueman.jpg);
+    }
+    #workimgthree {
+        background-image: url(files/greyw.jpg);
+    }
+    #ecooking p {
+        margin: 0px; line-height: 1.5em;
+        text-align: left; width: 83vw; 
+        max-width: 1067px;
+    }
+    #workimgfour {
+        background-image: url(files/ecook.PNG);
+        background-size: cover;
+        height: 40vw; max-height: 550px;
+        width: 83vw; max-width: 1080px;
+    }
+    #workimgfive, #workimgsix {
+        width: 40vw; max-width: 500px;
+        height: 40vw; max-height: 500px;
+        background-size: cover;
+        background-position: center;
+        transition: 1.5s;
+    }
+    #workimgfive {
+        background-image: url(files/mirac.jpg);
+        margin-right: 1.5em;
+    }
+    #workimgsix {
+        background-image: url(files/sit.jpg);
+        margin-left: 1.5em;
+    }
+    #workthirdimgrow {
+        padding-top: 50px;
+        padding-bottom: 0.5em !important;
+    }
+    #workthirdimgrow #imghead{
+        width: 50vw; max-width: 700px;
+        text-align: left;
+    }
+    #sevenname {
+        padding-bottom: 0px !important;
+    }
+    #imgheadd {
+        width: 100vw;
+        margin-left: 3.5vw;
+        margin-bottom: 2em;
+        max-width: 1367px;
+    }
+    #workimgseven, #workimgeight {
+        background-size: cover;
+        background-position: center;
+        height: 40vw; max-height: 450px;
+        width: 40vw; max-width: 545px;
+        transition: 1.5s;
+    }
+    #workimgseven {
+        background-image: url(files/b1.jpg);
+        margin-right: 1.5em;
+    }
+    #workimgeight {
+        background-image: url(files/b2.jpg);
+        margin-left: 1.5em;
+    }
+    #workimgnine, #workimgten {
+        background-size: cover;
+        background-position: center;
+        height: 40vw; max-height: 450px;
+        width: 18vw; max-width: 250px;
+        transition: 1.5s;
+    }
+    #workimgnine {
+        background-image: url(files/gw1.PNG);
+        margin-right: 0.3em;
+    }
+    #double {
+        margin-left: 0.50em; margin-right: 2em;
+    }
+    #workimgten {
+        background-image: url(files/gw2.PNG);
+        margin-left: 0.3em;
+    }
+    #workimgeleven {
+        background-image: url(files/redwoman.jpg);
+        background-size: cover;
+        height: 40vw; max-height: 450px;
+        width: 40vw; max-width: 545px;
+        transition: 1.5s;
+    }
+    #secfix {
+        margin-left: 1.5em;
+    }
+
+    #wmfootsec1, #wmfootsec2, #wmfootsec3 {
+        overflow: hidden;
+        height: 0px;
+        transition: 0.6s;
+    }
+    #wmfootsec1 p, #wmfootsec2 p, #wmfootsec3 p {
+        font-size: 0.8em;
+        margin-left: 3em;
+    }
+    
+    #wmfootsec2 p {
+        line-height: 2em;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.151);
+    }
+    
+    #wmfootsec3 img {
+        width: 2em !important;
+    position: relative;
+    top: 7px;
+    margin-left: -2em;
+    }
+    #wmfootadd p {
+        line-height: 1.5em !important;
+    }
+
+
+    @media only screen and (max-width: 700px) {
+        
+        #workpagebody {
+            width: 100vw !important; margin: 0vw !important;
+            text-align: center; 
+        }
+        #workpage{
+            width: 100vw;
+        }
+        #backgroundgradient2 {
+        
+            background-size: cover;
+           background-position: 65% 65%;
+            position: fixed;
+            top: 0;
+            z-index: -1;
+        overflow: hidden;
+        height: 100vh;
+           width: 100vw;
+        }
+       
+        #workpage #mobilelogo {
+            height: 20vh;
+        }
+
+        #logoo {
+            padding: 0px;
+        }
+        #workpagebody #bottomsec {
+            height: 15vh;
+            font-size: 0.8em !important;
+            padding: 0px !important;
+        }
+        #workpagebody #pageinfoo {
+            height: 30vh !important;
+            width: 80vw;
+            padding: 0 10vw;
+        }
+
+        #pagetitle {
+            padding: 0px !important;
+            height: 15vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-end;
+            
+        }
+
+
+        #bottomsec {
+            text-align: center;
+            }#pagetitle {
+            font-size: 2.5em;
+            left: 0%; padding-bottom: 1.5em; }
+        #pageinfoo {
+            width: 83vw !important;
+            padding: 0 8.5vw !important;
+            
+         }
+
+         #fyear {
+            width: 82vw; 
+            transition: 2s;
+            text-align: left;
+            font-size: 2.2em;
+           }
+           
+           #syear {
+               width: 82vw; 
+               position: relative; left: 15px;
+               text-align: left;
+               font-size: 2.1em;
+           }
+           #tyear{
+              width: 80vw;
+               position: relative; left: 23px;
+               text-align: left;
+               font-size: 2em;
+           }
+
+         #workdiscoverpage {
+            padding-bottom: 3em !important;
+            padding-top: 0em !important;
+            margin-top: 2em;
+            overflow: hidden;
+            line-height: 2.8em;
+        }
+        
+        video  {
+            height: 80vw; max-height: 500px;
+            width: 80vw; max-width: 500px;
+        }
+
+        #worksecondimgrow, #workthirdimgrow {
+            flex-direction: column-reverse !important;
+            padding-top: 0px!important;
+        }
+        #worksecondimgrow img, #workthirdimgrow img  {
+            width: 85vw !important; height: 60vw !important ;
+            margin: 0px !important ;
+        }
+        #worksecondimgrow {
+            padding-bottom: 0px!important;
+        }
+        #worksecondimgrow #imgyear {
+            padding-bottom: 0px!important;
+        }
+  
+#video2 {
+    padding-bottom: 0px !important;
+}
+
+        #workfirstimgrow {
+          flex-direction: column;
+          justify-content: center;
+          text-align: center !important;
+          margin-bottom: 0px; padding-bottom: 0px !important;
+      }#workfirstimgrow img {
+          margin: 0px ; margin-bottom: 0px !important; 
+          width: 85vw !important; height: 85vw !important ;max-width: 400px; max-height: 400px; 
+      }#workimgone{
+          background-position: 10% 75%;} #workimgtwo {background-position: center ; }
+      #imgyear, #imgyear2, #imgyear3 {
+          margin-bottom: 40px;
+          width: 65vw !important;
+      }#imghead, #imghead2, #imghead3 {
+        width: 65vw !important;
+        padding-bottom: 0.5em;
+    }
+  #imagecontent {
+      width: 100vw;
+  }
+      #workimgfour {
+          height: 50vw !important;
+          width: 85vw !important; 
+      }
+      #ecooking {
+          padding-bottom: 0em !important;
+          
+      }
+      #imgheadd {
+        height: 3.8em;
+    }
+      #imghead, #imgyear, #imghead2, #imgyear2, #imgheadd{
+          width: 85vw!important;
+        margin: 0px !important;
+    padding: 0px !important;
+text-align: left; }
+
+     
+#workthirdimgrow {
+    padding-bottom: 0px !important;
+}
+
+#double {
+    padding-bottom: 3.5em!important;
+}
+#imgyear, #imgyear2 {
+    padding-bottom: 3em !important;
+    padding-top: 0.5em !important;
+}
+#imghead, #imghead2 {
+    padding-top: 0.5em !important;
+}
+
+
+      #workimgsix, #workimgeight {
+          margin-left: 0px !important;
+      }
+  
+  
+      #workfourthimgrow {
+          display: flex;
+          flex-direction: column;
+          text-align: left;
+          padding: 0px !important ;
+          margin: 0px !important;
+      }
+      #double {
+          display: flex;
+          justify-items: center;
+          align-content: center;
+          flex-wrap: wrap;
+          
+          margin: 0px !important;
+          width: 90vw;
+          margin: 0 5vw!important;
+      }
+      #double * {
+        padding: 0px !important ;
+        margin: 2px !important;
+      }
+      #double img {
+        width: 42vw !important; height: 85vw !important;
+        max-height: 400px;
+      }
+
+#logoo {
+    padding-top: 15vh;
+    margin-bottom: 15vh;
+}
+#pagetitle, #pageinfoo {
+    margin-top: 15vh !important;
+}
+
+
+
+  #secfix {
+      display: flex;
+      flex-direction: column;
+      padding: 0px !important ;
+          margin: 0px !important;
+          width: 85vw;
+          margin: 0 7.5vw !important;
+  }
+  #secfix p {
+    width: 85vw;
+    padding-top: 0.5em !important;
+  }
+  
+      #workfourthimgrow img {
+          margin: 0px ; margin-bottom: 0px ;
+          width: 85vw; height: 75vw;max-width: 400px; max-height: 400px;
+      }
+      #workfourthimgrow {
+          padding-bottom: 4em !important;
+      }
+    
+
+    footer {
+        text-align: left;
+    }#footerlogo {
+        width: 0vw;
+        overflow: hidden;
+    }
+    

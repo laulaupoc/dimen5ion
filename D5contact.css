@@ -1,0 +1,182 @@
+#contactpagebody {
+    margin-left: 6vw; 
+    width: 0vw; height: 0px;
+    color: white;
+    overflow: hidden;
+    transition: 0.5s;
+}
+#contactpagebody div {
+    display: flex; flex-direction: column;justify-content: center;
+}
+#backgroundgradient4 {
+    background-image: url(files/contact.png);
+    background-size: cover;
+    position: fixed;
+    top: 0;
+    z-index: -1;
+overflow: hidden;
+height: 100vh;
+   width: 100vw;
+}
+#contactpage {
+    max-width: 1367px;
+    padding-bottom: 0px;
+}
+#contactpage footer {
+    width: 100vw;
+}
+#bottomseccc {
+    margin: 0px; padding-bottom: 160px;
+    text-align: start;
+    }
+    
+    #contactpage #mobilelogo {
+        height: 40vh;
+    }
+#contactheader {
+    padding-top: 2em;
+}
+
+    #contactpage #discoverlink {
+        height: 50vh;
+    }
+    #contactpage #discover {
+        margin-top: 30%;
+        margin-left: 45%;
+    }
+
+    #formular {
+        display: flex;
+    }
+    #formularform {
+        line-height: 3em;
+    }
+    #formular section {
+        margin: 0 2vw;
+    }
+    #formularoption {
+        border-bottom: 2px solid white;
+        transition: 0.5s;
+        margin-bottom: 1em;
+    }
+    #messagebox {
+        height: 20vw; width: 40vw;
+        margin: 10px 0px 0px 0px;
+        background-color: rgba(255, 255, 255, 0.041);
+        transition: 0.5s;
+    }
+    #messagebox:hover {
+        background-color: rgba(255, 255, 255, 0.151);
+    }
+   
+    
+    #formularoption:hover {
+        background-color: rgba(255, 255, 255, 0.151);
+    }
+    #messagetag:hover + #messagebox {
+        background-color: rgba(255, 255, 255, 0.151);
+    }
+
+    #cmfootsec1, #cmfootsec2, #cmfootsec3 {
+        overflow: hidden;
+        height: 0px;
+        transition: 0.6s;
+    }
+    #cmfootsec1 p, #cmfootsec2 p, #cmfootsec3 p {
+        font-size: 0.8em;
+        margin-left: 3em;
+    }
+    
+    #cmfootsec2 p {
+        line-height: 2em;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.151);
+    }
+    
+    #cmfootsec3 img {
+        width: 2em !important;
+    position: relative;
+    top: 7px;
+    margin-left: -2em;
+    }
+    #cmfootadd p {
+        line-height: 1.5em !important;
+    }
+
+
+#sendbutton {
+    margin-top: 0% !important !important !important !;
+}
+
+#discoverr {
+    margin-top: 15%;
+    margin-left: 58%;
+    width: 8em !important;
+    height: 3em !important;
+    font-size: 0.8em;
+}
+
+    @media only screen and (max-width: 700px) {
+
+#contactpage, #contactpagebody {
+    width: 100vw !important;
+    margin-left: 0vw;
+    padding-bottom: 0px;
+}
+#backgroundgradient4 {
+        
+    background-size: cover;
+    background-position: 65% 65%;
+    position: fixed;
+    top: 0;
+    z-index: -20;
+overflow: hidden;
+height: 100vh;
+   width: 100vw;
+}
+
+#contactpage #discoverlink {
+    height: 60vh;
+}
+#contactpage #discover {
+    margin-top: 23em !important;
+    margin-left: 50%;
+}
+#contactpage #mobilelogo {
+    height: 20vh;
+}
+
+#formular {
+    flex-direction: column;
+}
+#formulartext {
+    width: 80vw !important;
+    margin: 0vw 10vw !important;
+    text-align: center !important;
+    padding-bottom: 3em;
+}
+#formularform {
+    width: 90vw !important;
+    margin: 0 5vw !important;
+    line-height: 5em;
+}
+#formular section {
+   
+}
+#messagebox {
+    width: 90vw;
+    height: 30vh;
+    margin-top: 0px;
+}
+
+#contactpage #topinfo {
+    padding-bottom: 0px;
+}
+
+#discoverr {
+    margin-left: 35%;
+    
+}
+
+
+
+    }
